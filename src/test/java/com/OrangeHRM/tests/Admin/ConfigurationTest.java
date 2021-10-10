@@ -8,7 +8,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 1)
     public void EmailConfigurationValidation() {
-        extentTest = extentReports.startTest("TC_024 : Validate Email Configuration Flow");
+        extentTest = extentReports.startTest("TC_026 : Validate Email Configuration Flow");
         App().Flow().Configuration().validateEmailConfigurationFlow(url);
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");
@@ -18,7 +18,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 2)
     public void EmailSubscriptionValidation() {
-        extentTest = extentReports.startTest("TC_025 : Validate Email Subscription Flow");
+        extentTest = extentReports.startTest("TC_027 : Validate Email Subscription Flow");
         App().Flow().Configuration().validateEmailSubscriptionFlow();
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");
@@ -28,7 +28,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 3)
     public void LocalizationValidation() {
-        extentTest = extentReports.startTest("TC_026 : Validate Localization Flow");
+        extentTest = extentReports.startTest("TC_028 : Validate Localization Flow");
         App().Flow().Configuration().validateLocalizationFlow();
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");
@@ -38,7 +38,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 4)
     public void LanguagePackagesValidation() {
-        extentTest = extentReports.startTest("TC_027 : Validate Language Packages Flow");
+        extentTest = extentReports.startTest("TC_029 : Validate Language Packages Flow");
         App().Flow().Configuration().validateLanguagePackagesFlow();
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");
@@ -48,7 +48,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 5)
     public void ModulesValidation() {
-        extentTest = extentReports.startTest("TC_028 : Validate Modules Flow");
+        extentTest = extentReports.startTest("TC_030 : Validate Modules Flow");
         App().Flow().Configuration().validateModulesFlow();
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");
@@ -58,7 +58,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 6)
     public void SocialMediaAuthValidation() {
-        extentTest = extentReports.startTest("TC_029 : Validate social media authentication Flow");
+        extentTest = extentReports.startTest("TC_031 : Validate social media authentication Flow");
         App().Flow().Configuration().validateSocialMediaAuthFlow();
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");
@@ -68,7 +68,7 @@ public class ConfigurationTest extends Base {
 
     @Test(priority = 7)
     public void RegisterOAuthClientValidation() {
-        extentTest = extentReports.startTest("TC_030 : Validate Register OAuth Client Flow");
+        extentTest = extentReports.startTest("TC_032 : Validate Register OAuth Client Flow");
         App().Flow().Configuration().validateRegisterOAuthClientFlow();
         extentTest.log(LogStatus.INFO, "Navigate to OrangeHRM application");
         extentTest.log(LogStatus.INFO, "Login into application");

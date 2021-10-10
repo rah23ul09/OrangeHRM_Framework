@@ -3,15 +3,32 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/user/eclipse-workspace/Framework_OrangeHRM">
         <classes>
-            <class name="com.OrangeHRM.tests.Admin.ConfigurationTest">
+            <class name="com.OrangeHRM.tests.Base.LoginTest">
                 <methods>
-                    <include name="EmailConfigurationValidation"/>
-                    <include name="EmailSubscriptionValidation"/>
-                    <include name="LocalizationValidation"/>
-                    <include name="LanguagePackagesValidation"/>
-                    <include name="ModulesValidation"/>
-                    <include name="SocialMediaAuthValidation"/>
-                    <include name="RegisterOAuthClientValidation"/>
+                    <include name="LogoAndLoginImageValidation"/>
+                    <include name="LoginValidation"/>
+                </methods>
+            </class>
+            <class name="com.OrangeHRM.tests.Base.HomeHeaderTest">
+                <methods>
+                    <include name="HeaderComponentsValidation"/>
+                    <include name="AboutValidation"/>
+                    <include name="CloseAboutValidation"/>
+                    <include name="LogoutValidation"/>
+                </methods>
+            </class>
+            <class name="com.OrangeHRM.tests.Base.FirstLevelMenuBarTest">
+                <methods>
+                    <include name="FirstLeveMenuBarValidation"/>
+                </methods>
+            </class>
+            <class name="com.OrangeHRM.tests.Admin.UserManagementTest">
+                <methods>
+                    <include name="ToggleBarValidation"/>
+                    <include name="UserSearchValidation"/>
+                    <include name="UserResetValidation"/>
+                    <include name="AddUserValidation"/>
+                    <include name="DeleteUserValidation"/>
                 </methods>
             </class>
             <class name="com.OrangeHRM.tests.Admin.JobTest">
@@ -39,32 +56,15 @@
                     <include name="MembershipsValidation"/>
                 </methods>
             </class>
-            <class name="com.OrangeHRM.tests.Admin.UserManagementTest">
+            <class name="com.OrangeHRM.tests.Admin.ConfigurationTest">
                 <methods>
-                    <include name="ToggleBarValidation"/>
-                    <include name="UserSearchValidation"/>
-                    <include name="UserResetValidation"/>
-                    <include name="AddUserValidation"/>
-                    <include name="DeleteUserValidation"/>
-                </methods>
-            </class>
-            <class name="com.OrangeHRM.tests.Base.FirstLevelMenuBarTest">
-                <methods>
-                    <include name="FirstLeveMenuBarValidation"/>
-                </methods>
-            </class>
-            <class name="com.OrangeHRM.tests.Base.HomeHeaderTest">
-                <methods>
-                    <include name="HeaderComponentsValidation"/>
-                    <include name="AboutValidation"/>
-                    <include name="CloseAboutValidation"/>
-                    <include name="LogoutValidation"/>
-                </methods>
-            </class>
-            <class name="com.OrangeHRM.tests.Base.LoginTest">
-                <methods>
-                    <include name="LogoAndLoginImageValidation"/>
-                    <include name="LoginValidation"/>
+                    <include name="EmailConfigurationValidation"/>
+                    <include name="EmailSubscriptionValidation"/>
+                    <include name="LocalizationValidation"/>
+                    <include name="LanguagePackagesValidation"/>
+                    <include name="ModulesValidation"/>
+                    <include name="SocialMediaAuthValidation"/>
+                    <include name="RegisterOAuthClientValidation"/>
                 </methods>
             </class>
         </classes>

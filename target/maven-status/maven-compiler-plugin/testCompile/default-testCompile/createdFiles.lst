@@ -1,0 +1,9 @@
+com\OrangeHRM\tests\Admin\JobTest.class
+com\OrangeHRM\tests\Base\Base.class
+com\OrangeHRM\tests\Base\FirstLevelMenuBarTest.class
+com\OrangeHRM\tests\Admin\OrganizationTest.class
+com\OrangeHRM\tests\Admin\ConfigurationTest.class
+com\OrangeHRM\tests\Admin\QualificationTest.class
+com\OrangeHRM\tests\Base\HomeHeaderTest.class
+com\OrangeHRM\tests\Admin\UserManagementTest.class
+com\OrangeHRM\tests\Base\LoginTest.class
